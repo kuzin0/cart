@@ -1,0 +1,74 @@
+
+td {  
+    vertical-align: middle;
+    }
+     
+    @media screen and (max-width: 723px) { 
+        table#cart tbody td .form-control { 
+        width:10%; 
+        display: inline !important;
+        } 
+        .section-head{
+            margin-left: 0px;
+            margin-right: -2px;
+        }
+        .actions .btn { 
+        /* width:10%;  */
+        margin-bottom:0.5em ;
+        } 
+        
+        .actions .btn-info { 
+        float:left;
+        margin-left: 1px;
+        }
+        .actions .btn-info-1{
+            float: right;
+            margin-right: 2px;
+        }
+        
+        .actions .btn-danger { 
+        float:right;
+        } 
+        
+        table#cart thead {
+        display: none;
+        } 
+        
+        table#cart tbody td {
+        display: block;
+        padding: .6rem;
+        min-width:320px;
+        } 
+        
+        table#cart tbody tr td:first-child {
+        background: #333;
+        color: #fff;
+        } 
+        
+        table#cart tbody td:before { 
+        content: attr(data-th);
+        font-weight: bold; 
+        display: inline-block;
+        width: 8rem;
+        } 
+        
+        table#cart tfoot td {
+        display:block;
+        } 
+        table#cart tfoot td .btn {
+        display:block;
+        }
+        .btn{
+        border:5px solid;
+        }
+        .text-cennter-1{
+            text-align: right;
+        }
+        .Price{
+            text-align:inherit;
+        }
+        .nomargin{
+            flex-direction: column-reverse;
+            text-align: justify;
+        }
+}
